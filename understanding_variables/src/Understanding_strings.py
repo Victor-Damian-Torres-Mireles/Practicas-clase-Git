@@ -20,10 +20,11 @@ Ejemplo incorrecto:
 """
 name = "VicTOr DamIAn TORres Mireles"          # Variable tipo String 
 print(name)
-
+print("----------")
 print(name.title ())     # .title()  Solo funciona para variables tipo string
+print("----------")
 print(name)
-
+print("----------")
 name = name.title()
 print(name)
 
@@ -41,7 +42,8 @@ Todos los metodos van seguidos de parentesis, porque en ocasiones
 necesitan informacion adicional para funcionar. En esta ocasion
 el metodo title no requiere informacion adicional para ejecutarse.
 """
-
+print("----------")
 print(name.upper())
 print("----------")
 print(name.lower())
+print("----------")
